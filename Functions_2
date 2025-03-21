@@ -1,0 +1,118 @@
+1-20: Aggregate Functions
+
+
+SUM() – Returns the sum of values
+AVG() – Returns the average of values
+COUNT() – Counts the number of rows
+MIN() – Returns the minimum value
+MAX() – Returns the maximum value
+GROUP_CONCAT() – Concatenates values in a group (MySQL)
+STRING_AGG() – Concatenates values in a group (SQL Server, PostgreSQL)
+VARIANCE() – Returns the variance of values
+STDDEV() – Returns the standard deviation of values
+MEDIAN() – Returns the median value (Some databases)
+PERCENTILE_CONT() – Calculates percentile (SQL Server, PostgreSQL)
+PERCENTILE_DISC() – Returns a discrete percentile value
+CUME_DIST() – Cumulative distribution within a partition
+DENSE_RANK() – Returns rank without gaps
+RANK() – Returns rank with gaps
+NTILE(n) – Divides rows into n buckets
+
+Windows Functions
+
+FIRST_VALUE() – Returns the first value in an ordered set
+LAST_VALUE() – Returns the last value in an ordered set
+LAG() – Accesses previous row value
+LEAD() – Accesses next row value
+
+21-40: String Functions
+
+CONCAT() – Concatenates strings
+CONCAT_WS() – Concatenates with a separator
+SUBSTRING() – Extracts part of a string
+LEFT() – Extracts left part of a string
+RIGHT() – Extracts right part of a string
+LENGTH() – Returns string length
+CHAR_LENGTH() – Returns character length
+UPPER() – Converts to uppercase
+LOWER() – Converts to lowercase
+TRIM() – Removes spaces from both ends
+LTRIM() – Removes spaces from the left
+RTRIM() – Removes spaces from the right
+REPLACE() – Replaces part of a string
+TRANSLATE() – Replaces multiple characters at once
+REVERSE() – Reverses a string
+LPAD() – Pads a string from the left
+RPAD() – Pads a string from the right
+INSTR() – Finds the position of a substring
+POSITION() – Returns position of substring (ANSI SQL)
+FORMAT() – Formats numbers as strings
+
+41-60: Date & Time Functions
+
+NOW() – Returns the current timestamp
+CURRENT_TIMESTAMP() – Returns the current timestamp
+CURRENT_DATE() – Returns the current date
+CURRENT_TIME() – Returns the current time
+SYSDATE() – Returns the system date (Oracle, MySQL)
+GETDATE() – Returns current date and time (SQL Server)
+DATE() – Extracts date from a timestamp
+TIME() – Extracts time from a timestamp
+YEAR() – Extracts year from a date
+MONTH() – Extracts month from a date
+DAY() – Extracts day from a date
+HOUR() – Extracts hour from a timestamp
+MINUTE() – Extracts minute from a timestamp
+SECOND() – Extracts second from a timestamp
+EXTRACT() – Extracts parts of a date/time
+DATEADD() – Adds a value to a date (SQL Server)
+DATEDIFF() – Returns the difference between two dates
+TIMESTAMPDIFF() – Returns difference between timestamps (MySQL)
+TO_DATE() – Converts a string to date format (Oracle, PostgreSQL)
+TO_CHAR() – Converts date to a string format
+
+61-80: Conditional & Case Functions
+
+CASE – Conditional logic in SQL
+COALESCE() – Returns the first non-null value
+NULLIF() – Returns NULL if two values are equal
+IF() – Conditional function (MySQL)
+IFNULL() – Returns alternative value if NULL (MySQL)
+ISNULL() – Checks if a value is NULL (SQL Server)
+NVL() – Returns alternative value if NULL (Oracle)
+NVL2() – Returns different values based on NULL condition (Oracle)
+DECODE() – Conditional function in Oracle
+IIF() – Inline IF function (SQL Server)
+ABS() – Returns absolute value
+CEIL() – Rounds up to nearest integer
+FLOOR() – Rounds down to nearest integer
+ROUND() – Rounds to specified decimal places
+TRUNC() – Truncates to a given decimal place
+POWER() – Raises a number to a power
+SQRT() – Returns the square root
+MOD() – Returns remainder of division
+SIGN() – Returns the sign of a number
+RADIANS() – Converts degrees to radians
+
+81-100: Miscellaneous Functions
+
+UUID() – Generates a unique identifier
+RAND() – Generates a random number
+MD5() – Hashes a string using MD5
+SHA1() – Hashes a string using SHA-1
+SHA2() – Hashes a string using SHA-2
+JSON_EXTRACT() – Extracts JSON values (MySQL, PostgreSQL)
+JSONB_EXTRACT_PATH() – Extracts JSON values (PostgreSQL)
+REGEXP_LIKE() – Matches a regular expression
+REGEXP_REPLACE() – Replaces part of a string using regex
+REGEXP_SUBSTR() – Extracts a substring using regex
+CAST() – Converts one data type to another
+CONVERT() – Converts data types (SQL Server, MySQL)
+UNION() – Combines result sets without duplicates
+UNION ALL() – Combines result sets with duplicates
+INTERSECT() – Returns common records from two queries
+EXCEPT() – Returns records from first query but not second
+LATERAL() – Allows subqueries to reference columns in the main query
+CROSS APPLY() – Joins a table with a table-valued function (SQL Server)
+OUTER APPLY() – Works like a left join with table-valued functions
+PIVOT() – Converts rows into columns

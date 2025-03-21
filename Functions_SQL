@@ -1,0 +1,100 @@
+1. Aggregate Functions
+COUNT() – Returns the number of rows
+SUM() – Returns the sum of a numeric column
+AVG() – Returns the average value of a numeric column
+MIN() – Returns the minimum value in a column
+MAX() – Returns the maximum value in a column
+GROUP_CONCAT() – Concatenates values from multiple rows (MySQL)
+
+2. String Functions
+
+CONCAT() – Joins two or more strings
+SUBSTRING() – Extracts a part of a string
+LENGTH() – Returns the length of a string
+LOWER() – Converts a string to lowercase
+UPPER() – Converts a string to uppercase
+TRIM() – Removes leading and trailing spaces
+REPLACE() – Replaces occurrences of a substring
+LEFT() – Returns a specified number of characters from the start
+RIGHT() – Returns a specified number of characters from the end
+
+3. Date & Time Functions
+
+NOW() – Returns the current timestamp
+CURDATE() – Returns the current date
+CURTIME() – Returns the current time
+DATEADD() – Adds an interval to a date (SQL Server)
+DATEDIFF() – Returns the difference between two dates
+EXTRACT() – Extracts part of a date (year, month, day, etc.)
+
+4. Mathematical Functions
+
+ROUND() – Rounds a number to a specified decimal place
+CEIL() – Returns the smallest integer greater than or equal to a number
+FLOOR() – Returns the largest integer less than or equal to a number
+ABS() – Returns the absolute value of a number
+MOD() – Returns the remainder of a division
+
+5. Conditional & Control Functions
+
+CASE – Performs conditional logic in SQL queries
+IF() – Performs conditional logic (MySQL)
+COALESCE() – Returns the first non-null value in a list
+NULLIF() – Returns NULL if two values are equal
+
+
+6. Advanced Aggregate Functions
+STDDEV() – Returns the standard deviation of a numeric column
+VARIANCE() – Returns the variance of a numeric column
+PERCENTILE_CONT() – Calculates continuous percentile (PostgreSQL, SQL Server)
+PERCENTILE_DISC() – Calculates discrete percentile
+MEDIAN() – Returns the median value (some databases)
+
+7. More String Functions
+
+CHAR_LENGTH() – Returns the length of a string in characters
+POSITION() – Finds the position of a substring in a string
+LPAD() – Pads a string from the left (MySQL, PostgreSQL)
+RPAD() – Pads a string from the right
+FORMAT() – Formats numbers with locale-specific settings
+ASCII() – Returns ASCII code of the first character
+CHAR() – Converts ASCII code to character
+REVERSE() – Reverses a string
+
+
+8. More Date & Time Functions
+DATE_FORMAT() – Formats a date (MySQL)
+TO_DATE() – Converts a string to a date
+TO_CHAR() – Converts a date to a string
+LAST_DAY() – Returns the last day of the month
+ADD_MONTHS() – Adds months to a date
+NEXT_DAY() – Returns the next specified weekday
+
+
+9. Window (Analytic) Functions
+
+RANK() – Assigns a rank to each row with gaps
+DENSE_RANK() – Assigns a rank to each row without gaps
+ROW_NUMBER() – Assigns a unique row number
+NTILE(n) – Divides rows into n equal parts
+LEAD() – Returns the value from the next row
+LAG() – Returns the value from the previous row
+FIRST_VALUE() – Returns the first value in a window
+LAST_VALUE() – Returns the last value in a window
+
+10. More Mathematical Functions
+
+LOG() – Returns the logarithm of a number
+EXP() – Returns e raised to the power of a number
+POWER() – Raises a number to a given power
+SIGN() – Returns the sign of a number (+1, 0, -1)
+RADIANS() – Converts degrees to radians
+DEGREES() – Converts radians to degrees
+
+11. More Conditional & Null Handling Functions
+
+GREATEST() – Returns the largest value in a list
+LEAST() – Returns the smallest value in a list
+IFNULL() – Returns a replacement value if NULL (MySQL)
+ISNULL() – Checks if a value is NULL (SQL Server)
+NVL() – Replaces NULL with a specified value (Oracle)

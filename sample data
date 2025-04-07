@@ -1,0 +1,23 @@
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    EmpName VARCHAR(50),
+    Department VARCHAR(30),
+    Salary INT,
+    JoiningDate DATE,
+    ManagerID INT,
+    City VARCHAR(30),
+    Grade VARCHAR(2)
+);
+
+INSERT INTO Employee VALUES 
+(101, 'Raj', 'IT', 80000, '2018-01-20', 201, 'Mumbai', 'A'),
+(102, 'Simran', 'HR', 50000, '2019-03-15', 202, 'Delhi', 'B'),
+(103, 'Amit', 'Finance', 60000, '2017-07-25', 201, 'Bangalore', 'A'),
+(104, 'Neha', 'IT', 90000, '2020-11-30', 201, 'Mumbai', 'A'),
+(105, 'Pooja', 'Sales', 40000, '2021-06-18', 203, 'Chennai', 'C'),
+(106, 'Aakash', 'Sales', 45000, '2019-09-05', 203, 'Chennai', 'C'),
+(107, 'Vikram', 'Finance', 75000, '2016-04-12', 201, 'Delhi', 'B'),
+(108, 'Meena', 'HR', 55000, '2020-01-10', 202, 'Bangalore', 'B'),
+(109, 'Ravi', 'IT', 85000, '2022-02-20', 201, 'Hyderabad', 'A'),
+(110, 'Alok', 'Sales', 42000, '2018-12-01', 203, 'Mumbai', 'D');
+

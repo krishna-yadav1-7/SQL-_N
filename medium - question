@@ -4,3 +4,13 @@
 (Hint: Use DATEDIFF or YEAR functions based on JoinDate)
 4. Write a query to display the maximum, minimum, and average salary department-wise.
 5. Write a query to fetch the employee details who joined in the year 2020 or later and whose grade is either 'A' or 'B'.
+6. Display all employees who are working in 'IT' or 'Finance' department and their salary is greater than 70000.
+7. List the employees whose name starts with 'A' and ends with 'h'.
+8. Display total number of employees joined year-wise (JoiningDate).
+9. Show department-wise total salary and sort the result in descending order of total salary.
+10. Retrieve the employee details who are working in 'Mumbai' location and having Grade either 'A' or 'B'.
+11. Display employee names and their experience in months from the joining date till today.
+12. List the employees who are getting the minimum salary in each department.
+13. Display the employee count in each city.
+14. Retrieve the details of employees who joined between '2018-01-01' and '2020-12-31'.
+15. Show department-wise highest and lowest salary.

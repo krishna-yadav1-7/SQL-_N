@@ -1,0 +1,6 @@
+1. Write a query to display the total number of employees working in each department.
+2. Write a query to find the second highest salary from the Employee table.
+3. Write a query to display employee names along with the number of years they have completed in the company.
+(Hint: Use DATEDIFF or YEAR functions based on JoinDate)
+4. Write a query to display the maximum, minimum, and average salary department-wise.
+5. Write a query to fetch the employee details who joined in the year 2020 or later and whose grade is either 'A' or 'B'.

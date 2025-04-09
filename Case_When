@@ -1,0 +1,77 @@
+Basic Level Questions (Already Done by You)
+Problem 1:
+Add a new column "Performance" based on Grade:
+
+A → Excellent
+B → Good
+C → Average
+Else → Poor
+
+Problem 2:
+Add a new column "SalaryCategory" based on Salary:
+
+80000 → High
+50000 to 80000 → Medium
+Else → Low
+
+Problem 3:
+Add a new column "LocationZone" based on City:
+
+Delhi, Mumbai → North Zone
+Chennai, Hyderabad → South Zone
+Else → Central Zone
+
+Intermediate Level Questions
+Problem 4:
+Display EmpID, EmpName, JoiningDate, and ExperienceLevel based on years of experience:
+
+7 years → Senior
+4 to 7 years → Mid-Level
+Else → Junior
+
+Problem 5:
+Display EmpID, EmpName, and how many years they have completed in the company.
+(Hint: Use YEAR(CURRENT_DATE) - YEAR(JoiningDate))
+
+Problem 6:
+Assign Bonus based on Department:
+
+IT → 20000
+HR → 15000
+Finance → 18000
+Else → 10000
+
+Problem 7:
+Add a new column "SalarySlab" based on Grade and Salary:
+
+Grade A & Salary > 85000 → Top Performer
+Grade A & Salary <= 85000 → Performer
+Else → Need Improvement
+
+Problem 8:
+Classify City as:
+Mumbai, Delhi, Bangalore, Hyderabad → Metro
+Else → Tier-2
+
+
+Advanced Level Questions
+
+Problem 9:
+Write a query to calculate Bonus using CASE WHEN and Salary Slab:
+
+Grade A & Salary > 85000 → Bonus 20%
+Grade A & Salary <= 85000 → Bonus 15%
+Grade B → Bonus 10%
+Else → Bonus 5%
+
+Also, show Total Salary = Salary + Bonus
+(Use CTE for clean code)
+
+Problem 10:
+Write a query to classify employees' retention strategy:
+
+If experience > 7 years AND Grade A → 'Key Resource'
+If experience between 4 to 7 years OR Salary > 80000 → 'Important Resource'
+Else → 'Can Train'
+
+(Use CTE to calculate experience first and then apply CASE WHEN)
